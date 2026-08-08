@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+@theme {
+    --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+    
+    /* Original palette */
+    --color-petal-frost: #ECCBD9;
+    --color-alice-blue: #E1EFF6;
+    --color-sky-blue: #97D2FB;
+    --color-baby-blue-ice: #83BCFF;
+    --color-aquamarine: #80FFE8;
+
+    /* Added contrast & depth colors */
+    --color-deep-navy: #1A2E4A;       /* Dark backgrounds, headings */
+    --color-ocean-blue: #3B82C4;      /* Stronger interactive blue */
+    --color-deep-teal: #0D9488;       /* CTA / success buttons */
+    --color-blush: #D94F8A;           /* Accent / sale badge */
+    --color-warm-white: #FAFCFF;      /* Card backgrounds (slightly warm) */
+    --color-light-border: #C8DFF0;    /* Subtle border */
+    --color-text-primary: #1A2E4A;    /* High contrast text */
+    --color-text-secondary: #4A6080;  /* Body text */
+}
